@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="https://simg.nicepng.com/png/small/232-2321910_spongebob-house-png.png">
+        
+        <title>KrustyKrab</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <div class="right-col">
+        <h1></h1>
+        <img src="https://media.istockphoto.com/vectors/play-button-vector-id1192173219?k=20&m=1192173219&s=612x612&w=0&h=D8QzOI5EbP2bexOa9kg4ttKOwez1KxVplW39ckN29sI=" id="icon">
+        </div>
+        <div class="left-col">
+            <h3></h3>
+            <img src="https://i.gifer.com/C7H7.gif" id="spongebob">
+        </div>
+        <div class="top-col">
+            <h4></h4>
+            <img src="https://i.gifer.com/C7H7.gif" id="spongebob1">
+        </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png">SpongeBob</a></li>
+                    <li><a href="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/1200px-Patrick_Star.svg.png">Patrick</a></li>
+                    <li><a href="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Squidward_Tentacles.svg/1200px-Squidward_Tentacles.svg.png">Squirdward</a></li>
+                    <li><a href="https://static.wikia.nocookie.net/spongebob/images/7/7b/Krabs_artwork.png/revision/latest?cb=20210916065112">Mr.Krabs</a></li>
+                    <li><a href="https://static.wikia.nocookie.net/spongebob/images/7/77/Plankton_stock_art.png/revision/latest?cb=20210916065141">Plankton</a></li>
+                    <li><a href ="https://static.wikia.nocookie.net/spongebobgalaxy/images/c/cd/Gary_the_Snail.png/revision/latest?cb=20171105152328">Gary</a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="header">
+                  <h2>Krusty Krab Form</h2>
+                </div>
+                <div class="main">
+                  <form>
+                    <span>
+                      First Name: <input type="text" placeholder="First Name" name="">
+                      </span><br>
+                      <p></p>
+                      <span>
+                       Middle Name: <input type="text" placeholder="Middle Name" name="">
+                          </span><br>
+                          <p></p>
+                          <span>
+                       Last Name: <input type="text" placeholder="Last Name" name="">
+                        </span><br>
+                        <p></p>
+                        <span>
+                        Age: <input type="text" placeholder="Age" name="">
+                             </span><br>
+                             <p></p>
+                        <span>
+                       BirthDate: <input type="date" placeholder="Date" name="">
+                        </span><br>
+                        <p></p>
+                        <span>
+                      Email:  <input type="email" placeholder="Email" name="">  
+                        </span><br>
+                        <p></p>
+                        <div class="gender">
+                            <form>
+                        <span>
+                      Gender
+                      <p></p><br>
+                      Male   <input type="radio" name="Gender"/>
+                        </span><br>
+                        <span>
+                    Female<input type="radio" name="Gender"/>
+                        </span><br>
+                        <p></p>
+                        <span>
+                      Favorite Programming Language:
+                      <p></p>
+                      Javascript <input type="checkbox" name="Javascript"/>
+                         <br>
+                         Phyton  <input type="checkbox" name="Phyton"/>
+                         <br>
+                         C  <input type="checkbox" name="C"/>
+                         <br>
+                         C++  <input type="checkbox" name="C++"/>
+                         <br>
+                         Java  <input type="checkbox" name="Java"/>
+                         <br>
+                         C#  <input type="checkbox" name="C#"/>
+
+                        </span><br>
+                        <button>Submit</button>
+                    </form>
+                    </div>
+                  </form>
+                </div>
+                <audio id="sound">
+                    <source src="./KrustyKrab.mp3" type="audio/mp3">
+                  </audio>
+                  <script>
+                    var sound = document.getElementById("sound");
+                     var icon = document.getElementById("icon");
+            
+                     icon.onclick = function(){
+                      sound.play();
+                     }
+                  </script>
+                
+        
+        </body>
+</html>

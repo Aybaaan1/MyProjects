@@ -1,0 +1,174 @@
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-image: url(https://www.desktopbackground.org/download/320x480/2012/09/17/453880_spongebob-bikini-bottom-wallpaper-158-40996-desktop-wallpapers_1024x768_h.jpg);
+background-size: 1400px;
+background-repeat: no-repeat;
+
+}
+.navbar ul{
+    list-style: none;
+    background:  #0a3266;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(233, 230, 84);
+    width: 100px;
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: auto;
+    word-spacing: 20px;
+    text-shadow: 2px 2px rgb(235, 125, 0);
+    
+}
+.navbar a:hover{
+    background:rgb(79, 189, 204);
+}
+.container{
+    width: 680px;
+    margin:5% auto;
+    border-radius: 25px;
+    background-color:transparent;
+    box-shadow: 0 0 40px rgb(2, 2, 2);
+    position: relative;
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #0a0a0a;
+    text-shadow: 2px 2px rgb(247, 165, 58);
+  }
+  .header{
+      text-align: center;
+      padding-top: 8px;
+      font-family: monospace;
+    
+  }
+  .header h2{
+      font-size: 40px;
+      margin-bottom: 40px;
+      color: rgb(241, 245, 238);
+      text-shadow: 5px 5px rgb(216, 137, 73); 
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      position: relative;
+  }
+  .main{
+      text-align: center;
+  }
+  .main input, button{
+      width: 200px;
+      height: 40px;
+      border-radius: 2px;
+      outline: none;
+      padding-left: 40px;
+      box-sizing: content-box;
+      font-size: 20px;
+      color: rgb(36, 34, 34);
+      margin-bottom: 40px;
+      position: relative;
+      font-family: monospace;
+      letter-spacing: 3px;
+  }
+  .main button{
+      padding-left: 0;
+      background-color: #83acf1;
+      letter-spacing:3px;
+      font-weight: bold;
+  }
+  .main button hover{
+      box-shadow: 2px 2px 5px #555;
+      background-color: #7799d4;
+  }
+  .main input:hover{
+      box-shadow: 2px 2px 5px #555;
+      background-color: #ddd;
+  }
+  .main span{
+      position: relative;
+  }
+  .main i{
+      position: relative;
+      left: 15px;
+  }
+  .placeholder{
+      text-align: center;
+  }
+  .gender{
+      text-align: center;
+      position: relative;
+      font-size: 25px;
+      font-family: monospace;
+      width: 600px; 
+      border-radius: 2px;
+      color: #0a0a0a;
+      text-shadow: 2px 2px rgb(247, 165, 58);
+      letter-spacing: 3px;
+  }
+  .gender :hover{
+      box-shadow: none;
+      background-color: none;
+      width: 45px;
+      text-align: center;
+      box-shadow: 2px solid rgb(243, 194, 88);
+  }
+  .right-col{
+    float:right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+      }
+      .right-col p{
+        font-size: 18px;
+        color: #333;
+        font-weight: 400;
+        margin-right: 15px;
+        bottom: 190px;
+      }
+      #icon{
+        width:40px;
+        cursor: pointer;
+        border-radius: 24px;
+        height: auto;
+        bottom: 610px;
+        position: absolute;
+      }
+      .left-col{
+          float: left;
+          position: absolute;
+          margin-top: 120px;
+          margin-left: 40px;
+         
+      }
+      #spongebob{
+        width:250px;
+        cursor: pointer;
+        border-radius: 50px;
+        height: auto;
+        top:600px  
+    
+      }
+      .top-col{
+        float: right;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 1060px;
+       
+    }
+    #spongebob1{
+      width:250px;
+      cursor: pointer;
+      border-radius: 50px;
+      height: auto;
+      top:600px  
+  
+    }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Sky Countdown</title>
+        <link rel="stylesheet" href="animation.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sky-elements">
+                <img src="https://svg-clipart.com/svg/cartoon/8de2B6M-aircraft-airplane-vector.svg" alt="airplane" class="airplane">
+                <img src="https://www.downloadclipart.net/svg/16978-cartoon-sun-svg.svg" alt="icon" class="icon" id="icon">
+                <img src="https://freesvg.org/img/frame-1g.png" alt="bird1" class="bird1">
+                <img src="https://freesvg.org/img/frame-8c.png" alt="bird2" class="bird2">
+                <img src="https://images.vexels.com/media/users/3/149511/isolated/preview/b0e588b1c518480912948b947763360e-bow-arrow-cartoon.png" alt="arrow1" class="arrow1">
+                <img src="https://freesvg.org/img/SkyDiverHippo.png" alt="parachute1" class="parachute1">
+                <img src="https://www.downloadclipart.net/svg/56707-single-balloon-vector.svg" alt="arrow2" class="arrow2">
+            </div>
+            <audio id="sound">
+                <source src="./Pou.mp3" type="audio/mp3">
+              </audio>
+              <script>
+                var sound = document.getElementById("sound");
+                 var icon = document.getElementById("icon");
+        
+                 icon.onclick = function(){
+                  sound.play();
+                 }
+              </script>
+            
+    </body>
+</html>

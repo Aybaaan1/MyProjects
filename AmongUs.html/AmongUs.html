@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <link rel="icon"href ="https://seeklogo.com/images/A/among-us-logo-315EB5A5DA-seeklogo.com.png"></link>
+      <title>AmongUsOnline</title>
+      <style>
+        body{
+          font-family: sans-serif;
+          background-image: url(https://www.enjpg.com/img/2020/among-us-background-9.jpg);
+          background-size: 1400px;
+          overflow: hidden;
+          background-repeat: no-repeat;
+        }
+        .container{
+          width: 380px;
+          margin:20% auto;
+          border-radius: 25px;
+          background-color:transparent;
+          box-shadow: 0 0 10px #333;
+        }
+        .header{
+            text-align: center;
+            padding-top: 5px;
+        }
+        .header h2{
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: rgb(241, 245, 238);
+            text-shadow: 3px 3px rgb(88, 63, 63); 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .main{
+            text-align: center;
+        }
+        .main input, button{
+            width: 300px;
+            height: 40px;
+            border:none;
+            outline: none;
+            padding-left: 40px;
+            box-sizing: border-box;
+            font-size: 15px;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .main button{
+            padding-left: 0;
+            background-color: #83acf1;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+        .main button hover{
+            box-shadow: 2px 2px 5px rgb(214, 214, 214);
+            background-color: #7799d4;
+        }
+        .main input:hover{
+            box-shadow: 2px 2px 5px #555;
+            background-color: #ddd;
+        }
+        .main span{
+            position: relative;
+        }
+        .main i{
+            position: absolute;
+            left: 15px;
+        }
+        .right-col{
+          float:right;
+          margin-right: 6%;
+          margin-top: 120px;
+          display: flex;
+          align-items: center;
+        }   
+        .right-col p{
+          font-size: 18px;
+          color: #333;
+          font-weight: 400;
+          margin-right: 15px;
+        }
+        #icon{
+          width:80px;
+          cursor: pointer;
+          border-radius: 70px;
+          margin-left: 10px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="right-col">
+        <h1></h1>
+        <img src="https://media.istockphoto.com/vectors/play-button-vector-id1192173219?k=20&m=1192173219&s=612x612&w=0&h=D8QzOI5EbP2bexOa9kg4ttKOwez1KxVplW39ckN29sI=" id="icon">
+        </div>
+      <div class="container">
+        <div class="header">
+          <h2>Login Here</h2>
+        </div>
+        <div class="main">
+          <form>
+            <span>
+
+              <input type="text" placeholder="Username" name="">
+              </span><br>
+              <span>
+                <input type="password" placeholder="Password" name="">
+                </span><br>
+                <button>Login</button>
+                
+          </form>
+        </div>
+      </div>
+      <audio id="sound">
+        <source src="./Music.mp3" type="audio/mp3">
+      </audio>
+      <script>
+        var sound = document.getElementById("sound");
+         var icon = document.getElementById("icon");
+
+         icon.onclick = function(){
+          sound.play();
+         }
+      </script>
+    </body>
+    </html>
